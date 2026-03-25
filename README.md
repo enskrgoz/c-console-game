@@ -95,19 +95,19 @@ Ya da derlenmiş `.exe` dosyasına çift tıklayarak başlatabilirsin.
 ---
 
 
-## 🎓 Akademik Bağlam
+## SON SÖZ
 
 Bu proje, **Algoritmalar & Programlama** dersinin final ödevi olarak hazırlanmıştır.  
 Diziler, oyun döngüsü, çarpışma mantığı, dinamik zorluk skalası ve C dilinde gerçek zamanlı G/Ç konularını uygulamalı olarak kapsamaktadır. Word dosyasında kodun detaylı açıklamaları parçalar halinde yapılmıştır.(Dosya en altta eklenmiştir.)
 
 ---
 
-## 👤 Geliştirici
+##  Geliştirici
 
 > *ENES KARAGÖZ (AlGORİTMA VE PROGRAMLAYA GİRİŞ FİNAL PROJESİ)*
 
 ---
-## 👤 OYUNDAN GÖRÜNTÜLER:
+##  OYUNDAN GÖRÜNTÜLER:
 
 <img width="550" height="582" alt="Ekran görüntüsü 2025-12-20 133441" src="https://github.com/user-attachments/assets/f6221df4-7602-41d7-9852-95e2632fc1e2" />
 
