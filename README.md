@@ -1,18 +1,18 @@
-# 🎮 AlgoritmaOyun — Konsol Hayatta Kalma Oyunu
+# Konsol Hayatta Kalma Oyunu
 
 > **C dili** ile yazılmış, terminal tabanlı gerçek zamanlı bir hayatta kalma oyunu. Algoritmalar & Programlama dersi final projesi olarak geliştirilmiştir.
 
 ---
 
-## 📖 Hakkında
+ Hakkında
 
-**Oyun**, dört duvardan içeri sızan düşmanlardan kaçarak, bonus toplayarak ve mümkün olduğunca uzun süre hayatta kalmaya çalıştığın bir konsol oyunudur. Puanın arttıkça düşmanlar hızlanır ve daha sık doğar — ne kadar dayanabilirsin?
+**Oyun**, Duvarlardan rastgele düşman çıkar ve sen bu düşmalardan kaçdıkça puan kazanırsın. Eğer düşman seni yakalarsa canın bir azalır ve başlangıç konumumna dönersin. Can sayın bittiğinde oyun da biter. Oyunda 3 tane bonus vardır bu bonusların ustune geldıgınde bonusları kullanmış olursun. Düşmanlar ve Bonuslar rastgele doğmaktadırlar. Düşmanlar tek yönlü ilerleme sağlarken bonuslar sabit kalırlar.
 
 ---
 
-## 🕹️ Nasıl Oynanır
+Nasıl Oynanır
 
-Sen **`@`** karakterisin. Dört bir yandan gelen **`X`** düşmanlarından kaç, bonus topla, puanını artır. Tüm canların bitene kadar oyun devam eder.
+Sen **`@`** karakterisin. Duvarlardan rastgele doğan **`X`** düşmanlarından kaç, bonus topla, puanını artır. Tüm canların bitene kadar oyun devam eder.
 
 ### Kontroller
 
@@ -26,7 +26,7 @@ Sen **`@`** karakterisin. Dört bir yandan gelen **`X`** düşmanlarından kaç,
 
 ---
 
-## ⭐ Özellikler
+## Özellikler
 
 - **Gerçek zamanlı hareket** — 80ms oyun döngüsü ile akıcı WASD kontrolleri
 - **Dinamik zorluk** — 10 seviye; puan arttıkça düşmanlar hızlanır ve daha sık doğar
@@ -37,7 +37,7 @@ Sen **`@`** karakterisin. Dört bir yandan gelen **`X`** düşmanlarından kaç,
 
 ---
 
-## 💎 Bonuslar
+## Bonuslar
 
 Bonuslar oyun alanında rastgele belirir ve belirli süre içinde toplanmazsa kaybolur.
 
@@ -49,7 +49,7 @@ Bonuslar oyun alanında rastgele belirir ve belirli süre içinde toplanmazsa ka
 
 ---
 
-## 📊 Puan Sistemi
+## Puan Sistemi
 
 | Kaynak | Puan |
 |--------|------|
@@ -59,7 +59,7 @@ Bonuslar oyun alanında rastgele belirir ve belirli süre içinde toplanmazsa ka
 
 ---
 
-## ⚙️ Zorluk Skalası
+## Zorluk Skalası
 
 | Seviye | Düşman Doğma Hızı | Düşman Hızı |
 |--------|-------------------|-------------|
@@ -94,30 +94,11 @@ Ya da derlenmiş `.exe` dosyasına çift tıklayarak başlatabilirsin.
 
 ---
 
-## 🧠 Teknik Detaylar
-
-| Sabit | Değer | Açıklama |
-|-------|-------|----------|
-| `W` / `H` | 20 × 20 | Oyun alanı boyutları |
-| `MAX_DUSMAN` | 30 | Aynı anda maksimum düşman sayısı |
-| `MAX_BONUS` | 4 | Aynı anda maksimum bonus sayısı |
-| `CAN_HAKKI` | 3 | Başlangıç can sayısı |
-| `DOKUNUMAZ_SURE` | 12 tick | Hasar sonrası dokunulmazlık süresi |
-| `BONUS_SURE` | 18 tick | Mesajların ekranda kalma süresi |
-
-### Temel Sistemler
-
-- **Oyun Döngüsü** — `Sleep(80)` ile 80ms tick, `_kbhit()` ile non-blocking giriş
-- **Düşman Doğurma** — Düşmanlar rastgele kenardan doğar, yön vektörüyle ilerler
-- **Çarpışma Tespiti** — Her tick'te oyuncu ile tüm aktif nesneler karşılaştırılır
-- **Efekt Sistemi** — `SetConsoleTextAttribute` ile zamanlı ekran rengi değişimi
-
----
 
 ## 🎓 Akademik Bağlam
 
 Bu proje, **Algoritmalar & Programlama** dersinin final ödevi olarak hazırlanmıştır.  
-Diziler, oyun döngüsü, çarpışma mantığı, dinamik zorluk skalası ve C dilinde gerçek zamanlı G/Ç konularını uygulamalı olarak kapsamaktadır.
+Diziler, oyun döngüsü, çarpışma mantığı, dinamik zorluk skalası ve C dilinde gerçek zamanlı G/Ç konularını uygulamalı olarak kapsamaktadır. Word dosyasında kodun detaylı açıklamaları parçalar halinde yapılmıştır.(Dosya en altta eklenmiştir.)
 
 ---
 
@@ -142,4 +123,5 @@ Diziler, oyun döngüsü, çarpışma mantığı, dinamik zorluk skalası ve C d
 
 
 
-## Word dosyası : 
+## Word dosyası : [Algo_Oyun_C.docx](https://github.com/user-attachments/files/26252519/Algo_Oyun_C.docx)
+
