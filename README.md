@@ -128,12 +128,16 @@ Diziler, oyun döngüsü, çarpışma mantığı, dinamik zorluk skalası ve C d
 ---
 ## 👤 OYUNDAN GÖRÜNTÜLER:
 
+<img width="550" height="582" alt="Ekran görüntüsü 2025-12-20 133441" src="https://github.com/user-attachments/assets/f6221df4-7602-41d7-9852-95e2632fc1e2" />
 
 
-<img width="570" height="252" alt="Ekran görüntüsü 2025-1
-<img width="550" height="582" alt="Ekran görüntüsü 2025-12-20 133441" src="https://github.com/user-attachments/assets/a20b4928-3276-4373-b9c6-87765e0abfcd" />
-2-20 133555" src="https://github.com/user-attachments/assets/fbe40875-4baf-4ccf-a740-5508256a596a" />
+<img width="567" height="592" alt="Ekran görüntüsü 2025-12-20 133422" src="https://github.com/user-attachments/assets/833c4cf0-ff71-47d6-8e04-8de31acce970" />
 
+
+<img width="606" height="587" alt="Ekran görüntüsü 2025-12-20 133344" src="https://github.com/user-attachments/assets/14eab012-458d-499e-ab65-b4707f1ee1bc" />
+
+
+<img width="570" height="252" alt="Ekran görüntüsü 2025-12-20 133555" src="https://github.com/user-attachments/assets/d1091fa8-ab72-4931-a00b-f02f7838504b" />
 
 
 
